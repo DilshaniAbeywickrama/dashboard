@@ -1,0 +1,33 @@
+.card{
+    margin: 0 2% !important;
+    text-align: center; 
+    
+    
+    
+
+}
+.mainc{
+    width:1000px;
+    
+    margin-left: 20px;
+}
+.ppr{
+    padding-bottom: 0px;
+    text-align: right;
+    
+}
+.update{
+    color: slategray;
+}
+
+
+
+.rows{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    margin-bottom: 25px;
+    background-color: rgb(159, 236, 247);
+    
+    
+    
+}
