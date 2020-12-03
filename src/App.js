@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Boxes,Cards, Charts} from './components';
+import {Boxes,Cards, Charts, LineChart} from './components';
 import styles from './App.module.css';
 import {fetchData} from './api';
 
@@ -24,6 +24,7 @@ class App extends React.Component {
                 <Cards data={data} />
                 
                 <Charts data={data}/>
+                <LineChart />
             </div>
         )
     }

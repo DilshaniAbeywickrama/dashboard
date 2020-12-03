@@ -1,4 +1,3 @@
-
 import axios from 'axios';
 
 const url = 'https://hpb.health.gov.lk/api/get-current-statistical';

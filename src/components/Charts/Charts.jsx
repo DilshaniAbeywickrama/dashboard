@@ -28,11 +28,7 @@ const Charts = ({ data: { lconfirmed,ldeaths,lrecovered,gdeaths,grecovered,gtota
             }}
         />
     )
-    //const mChart(
-        //<Line
-        
-
-    //)
+    
     return (
         <div >
           <Grid container spacing={3}>
@@ -43,10 +39,7 @@ const Charts = ({ data: { lconfirmed,ldeaths,lrecovered,gdeaths,grecovered,gtota
                 </Paper>
                 
                 </Grid>
-                {/* <Grid item xs={12} sm={6}>
-                <Paper className={styles.charts} ><h2 className={styles.charttitle}> TOTAL VS ACTIVE CASES </h2>
-                {mChart}</Paper>
-                </Grid>  */}
+                
                 <Grid item xs={12} sm={6}>
                 <Paper className={styles.charts}>
                     <h2 className={styles.charttitle}> GLOBAL BREAKDOWN </h2>
